@@ -117,8 +117,6 @@ Heartbeat:Connect(HeartbeatUpdate)
 
 while true do
 	wait(2)
-	if writefile then
-		writefile("FPS Position Y Offset.txt",UI.Main.Position.Y.Offset)
-		writefile("FPS Position X Offset.txt",UI.Main.Position.X.Offset)
-	end
+	writefile("FPS Position Y Offset.txt",UI.Main.Position.Y.Offset)
+	writefile("FPS Position X Offset.txt",UI.Main.Position.X.Offset)
 end
