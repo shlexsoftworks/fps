@@ -8,7 +8,6 @@ print(UI.Main.Position)
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local DR = false
-local Mouse = game.Players.LocalPlayer:GetMouse()
 
 if isfile and readfile then
 	local YOffset = 49
